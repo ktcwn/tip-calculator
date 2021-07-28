@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tip calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>SPLITTER | Tip Calculator</title>
 </head>
+
 <body>
 
-  Bill
+  <header> SPLI </header>
+  <header> TTER </header>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
 
-  Number of People
+  <div class="container">
+    <div>
+    </div>
+    <!--Bill Container-->
+    <div class="left-section">
+      <h3>Bill</h3>
+      <!-- Bill Input -->
+      <div class="enterTotal">
+        <p>$ <input class="enterTotal" type="number"> </p>
+      </div>
 
-  Tip Amount
-  / person
+      <!-- Select Tip Container-->
+      <div class="select">
+        <h4>Select Tip %</h4>
+      </div>
+      <!-- Select Tip Buttons-->
+      <div class="tipButtons">
+        <button class="grid-item"> 5% </button>
+        <button class="grid-item">10%</button>
+        <button class="grid-item">15%</button>
+        <button class="grid-item">20%</button>
+        <button class="grid-item">25%</button>
+        <button class="grid-item" id="customTip">Custom</button>
+      </div>
 
-  Total
-  / person
-
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <!-- Number of People Container -->
+      <div>
+        <h5>
+          Number of People
+        </h5>
+      </div>
+      <!-- Input Container-->
+      <div>
+        <p>
+          <img src="" alt="">
+          <input type="number">
+        </p>
+      </div>
+      <!-- Tip Amount Container -->
+    </div>
+    <div class="right-section">
+      <h5>
+        Tip Amount
+        <p>
+          / person
+        </p>
+      </h5>
+      <p>$0.00</p>
+      <h5>
+        Tip Amount
+        <p>
+          / person
+        </p>
+      </h5>
+      <p>$0.00</p>
+      <div>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <!--- Reset Button --->
   </div>
 </body>
+
 </html>
