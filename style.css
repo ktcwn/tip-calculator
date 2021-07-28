@@ -26,6 +26,9 @@ header {
     transform: translate(50px, 5%);
 }
 .right-section {
+    display: grid;
+    grid-gap: 20px;
+    grid: repeat(6, 60px) / auto-flow;
     border-radius: 20px;
     transform: translate(260px, 10%);
     height: 500px;
@@ -74,4 +77,21 @@ header {
     width: 120px;
     background-color: var(--lightgray);
     color: var(--darkGrayCyan);
+}
+
+.per-person {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.totals {
+    color: var(--primary);
+    font-size: 45px;
+    font-weight: 500;
+    transform: translate(60%, -80px);
+}
+
+#resetBtn {
+    display: flex;
+    justify-content:;
 }
